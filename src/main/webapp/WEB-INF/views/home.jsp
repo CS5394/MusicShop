@@ -77,23 +77,43 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
         <div class="col-lg-4">
-            <img class="img-circle" src="<c:url value="/resources/images/instruments.jpg" />" alt="Generic placeholder image" width="140" height="140">
-            <h2>Instruments</h2>
-            <p>Shop curated selection for advanced musicians.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Instrument" />"
+               role="button">
+                <img class="img-circle" src="<c:url value="/resources/images/instrument.jpg" />" alt="Instrument
+                Image" width="140" height="140"></a>
+
+            <h2>Instrument</h2>
+            <p>Well crafted and delicate instruments.</p>
+
         </div><!-- /.col-lg-4 -->
+
+
+
+    <div class="row">
         <div class="col-lg-4">
-            <img class="img-circle" src="<c:url value="/resources/images/discography.jpg" />" alt="Generic placeholder image" width="140" height="140">
+            <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Record" />"
+               role="button">
+                <img class="img-circle" src="<c:url value="/resources/images/record.jpg" />" alt="Instrument
+                Image" width="140" height="140"></a>
+
             <h2>Discography</h2>
-            <p>Discover the largest music database and marketplace in the world. Complete your collection.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p>An exceptional collections of music records in favor of the traditional and modern genre of jazz.</p>
+
         </div><!-- /.col-lg-4 -->
+
+    <div class="row">
         <div class="col-lg-4">
-            <img class="img-circle" src="<c:url value="/resources/images/accessories.jpg" />" alt="Generic placeholder image" width="140" height="140">
+            <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Accessory" />"
+               role="button">
+                <img class="img-circle" src="<c:url value="/resources/images/accessory.jpg" />" alt="Instrument
+                Image" width="140" height="140"></a>
+
             <h2>Accessories</h2>
-            <p>Find great prices on a wide range of different instrument accessories</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p>All musical and related geeky goods..</p>
+
         </div><!-- /.col-lg-4 -->
+
+
     </div><!-- /.row -->
 
     <%@include file="/WEB-INF/views/template/footer.jsp" %>
